@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(0, 0, 25);
+    color: beige;
+}
+
+.self-intro-text p {
+    color:rgb(215, 189, 150);
+}
+
+.bio-text h1{
+    color:rgb(215, 189, 150);
+}
+
+.bio-sub-headings h2{
+    color:rgb(215, 189, 150); 
+}
+
+.self-intro img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+.self-intro-text{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.skills{
+    box-shadow: 1px 5px 10px black;
+    background-color: rgb(4, 4, 37);
+    background-position: fixed;
+    /* background-size: cover; */
+    /* margin:0 -4.33rem; */
+    /* padding: 50vh; */
+    /* padding-top: 3rem; */
+    /* padding: 0 50rem; */
+    margin-top: 5rem;
+    padding:5rem;
+    width:100%;
+    height: 100%;
+
+}
+
+.experiences{
+    margin-top: 10rem;
+    /* background-color:rgb(12, 12, 37) ; */
+    padding: 40px;
+    /* margin: auto 60px; */
+    /* box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green; */
+}
+
+.experience{
+    margin-bottom: 20px;
+    box-shadow: 1px 5px 10px black;
+    padding: 2rem;
+    background-color: rgb(4, 4, 37);
+}
+
+.contact{
+    margin-top: 5rem;
+    padding:5rem;
+    width: 100%;
+    height: 100%;
+}
+.contact-form{
+    box-shadow: 1px 5px 10px black;
+    /* margin-top: 5rem; */
+    padding: 5rem 2rem;
+    background-color: rgb(4, 4, 37);
+}
+
+.toggle-projects-btn{
+    display:flex;
+    padding-bottom: 20px;
+}
+
+.projects{
+    padding:40px;
+}
+
+#resume-btn{
+    padding: 5px;
+    background-color: #fff;
+    color: rgb(4, 4, 37);
+    border-radius: 5px;
+}
+
+#resume-btn:hover{
+    background-color: rgb(2, 2, 51);
+    color: #fff;
+    border: #fff;
+    box-shadow: 5px 2px 5px 2px black;
+}
+
+#resume-link{
+    text-decoration: none;
+}
+
+#project-btn{
+    background-color: rgb(2, 2, 51);
+    color: #fff;
+    border: #fff;
+    box-shadow: 5px 2px 5px 2px black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left:30rem;
+}
+
+#project-btn a{
+    text-decoration: none;
+}
+
+.filter-btn:hover{
+    background-color: rgb(2, 2, 51);
+    color: #fff;
+    border: #fff;
+    box-shadow: 5px 2px 5px 2px black;
+}
+
+.filter-btn{
+    margin:auto 1rem;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: rgb(4, 4, 37);
+    border-radius: 5px;
+}
+
+#submit-contact-btn{
+    background-color: rgb(2, 2, 51);
+    color: #fff;
+    border: #fff;
+    box-shadow: 5px 2px 5px 2px black;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
